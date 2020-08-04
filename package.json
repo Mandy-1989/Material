@@ -1,0 +1,66 @@
+{
+  "name": "Subcode",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test-web": "react-scripts test",
+    "eject-web": "react-scripts eject"
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/push-notification-ios": "^1.1.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "deprecated-react-native-listview": "0.0.6",
+    "react": "16.11.0",
+    "react-dom": "^16.13.1",
+    "react-native": "0.62.2",
+    "react-native-braintree-dropin-ui": "^1.0.9",
+    "react-native-chart-kit": "^5.4.0",
+    "react-native-elements": "^1.2.7",
+    "react-native-location": "^2.5.0",
+    "react-native-permissions": "^2.1.1",
+    "react-native-push-notification": "^3.1.9",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-charts": "^5.4.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "^0.13.4",
+    "react-scripts": "^3.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
